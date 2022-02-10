@@ -1,0 +1,10 @@
+.DS_Store
+
+# dependency directories
+node_modules/
+
+# build output
+dist
+
+# ts
+out-tsc/
