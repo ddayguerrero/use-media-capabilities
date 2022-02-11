@@ -1,9 +1,10 @@
 {
-  "name": "@ddayguerrero/use-media-capabilities",
+  "name": "use-media-capabilities",
   "version": "1.0.0",
   "description": "A React hook for the Media Capabilities API. Decide how to handle media and to determine how well media is being handled.",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -18,6 +19,7 @@
   "author": "Darrel-Day Guerrero",
   "license": "MIT",
   "dependencies": {
+    "@types/react": "^17.0.39",
     "react": "^17.0.2"
   },
   "devDependencies": {
@@ -31,9 +33,9 @@
     "eslint-plugin-react": "^7.28.0",
     "jest": "^27.5.0",
     "prettier": "2.5.1",
-    "react-test-renderer": "^17.0.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.67.1",
+    "rollup-plugin-dts": "^4.1.0",
     "typescript": "^4.5.5"
   },
   "type": "module",
